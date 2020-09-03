@@ -57,7 +57,7 @@ class Map extends Component {
 						this.setState({ lat: details['geometry']['location']['lat'], lng: details['geometry']['location']['lng'] }) // eslint-disable-line
 					}}
 					query={{
-						key: 'AIzaSyAmWH-rpAp3u2t6GSPB0cKg-aCsyj91NrQ',
+						key: 'Place your Google map key here',
 						language: 'en'
 					}}
 				/>
